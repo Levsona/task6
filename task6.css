@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none ;
+}
+ul li{
+    list-style-type: none;
+
+}
+a{
+    list-style-type: none;
+}
+a:not([href]){
+    color:#758BFD;
+    ;
+}
+header{
+    background-color:#FFFFFF;
+    text-decoration: none;
+}
+.logo{
+    padding-left: 40px;
+    padding-top: 5px;
+}
+header nav{
+    margin-top: 20px;
+}
+
+nav div{
+    display: flex;
+   justify-content: center;
+   justify-content: space-between;
+
+}
+div ul{
+    display: flex;
+    
+
+}
+.Services{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.search{
+    padding-bottom: 30px;
+    padding-right: 100px;
+}
+main{
+    background-color: #DDEAF8;
+    padding-bottom: 135px;
+}
+main div{
+    display: flex;
+    justify-content: space-around;
+}
+main h1{
+   padding: 50px 50px 30px 30px;
+   color:#27187F;
+
+}
+section{
+    background-color:#FFFFFF;
+    padding: 30px 30px 20px 30px;
+    margin-top: 51px;
+    
+}
+
+footer{
+    background-color:#758BFD;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul{
+    display: block;
+    flex-direction:column;
+} 
+
+
+footer div {
+    margin:75px 5px 20px 50px;
+    justify-content:end;
+   
+}
+
+.contact{
+    justify-content: space-between;
+}
+.contact img{
+    justify-content: space-around;
+}
+footer h1{
+    color: #00CAD7;
+}
