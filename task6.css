@@ -6,15 +6,14 @@
 }
 ul li{
     list-style-type: none;
+    text-decoration: none;
 
 }
 a{
     list-style-type: none;
+    text-decoration: none;
 }
-a:not([href]){
-    color:#758BFD;
-    ;
-}
+
 header{
     background-color:#FFFFFF;
     text-decoration: none;
@@ -26,6 +25,13 @@ header{
 header nav{
     margin-top: 20px;
 }
+.header{
+    padding-top: 20px;
+}
+.news{
+    color: #27187F;
+    padding-right: 30px;
+}
 
 nav div{
     display: flex;
@@ -34,13 +40,14 @@ nav div{
 
 }
 div ul{
-    display: flex;
-    
-
+    display: flex; 
 }
 .Services{
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 30px;
+}
+.who{
+    padding-left: 20px;
 }
 .search{
     padding-bottom: 30px;
@@ -73,7 +80,6 @@ footer{
 }
 footer ul{
     display: block;
-    flex-direction:column;
 } 
 
 
@@ -91,4 +97,12 @@ footer div {
 }
 footer h1{
     color: #00CAD7;
+    padding-bottom: 30px;
+}
+.in{
+    padding-right: 10px;
+}
+.twit{
+    padding-left: 10px;
+    padding-right: 10px;
 }
